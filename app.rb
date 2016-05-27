@@ -1,6 +1,6 @@
 require 'sinatra'
-require 'sinatra/reloader'
-require "better_errors"
+# require 'sinatra/reloader'
+# require "better_errors"
 
 # configure :development do
 #   use BetterErrors::Middleware
