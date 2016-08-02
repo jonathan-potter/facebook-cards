@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>woooo</title>
+    <title><%= params['title'] %></title>
     <meta property="og:url" content="<%= request_url %>">
     <% meta_tags.each do |key, value| %>
       <meta property="<%= key %>" content="<%= value %>">
