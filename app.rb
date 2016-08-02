@@ -28,7 +28,7 @@ end
 def first_meta_tags
   meta_tags = shared_meta_tags
 
-  meta_tags['og:url'] = "http://card-bouncer.herokuapp.com/meta?#{stringified_params}"
+  meta_tags['og:url'] = "http://card-bouncer.herokuapp.com/second?#{stringified_params}"
 
   meta_tags
 end
