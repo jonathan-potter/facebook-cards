@@ -2,10 +2,10 @@
 <html>
   <head>
     <title>woooo</title>
-    <meta property="og:url" content="<%= request_url %>">
     <% metas.each do |key, value| %>
-      <meta property="og:<%= key %>" content="<%= value %>">
+      <meta property="<%= key %>" content="<%= value %>">
     <% end %>
+
   </head>
   <body>
 
